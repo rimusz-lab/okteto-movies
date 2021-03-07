@@ -4,4 +4,5 @@ deploy:
   - okteto build -t okteto.dev/frontend:${OKTETO_GIT_COMMIT} frontend
   - envsubst < config.template.yaml > config.yaml
   - cat config.yaml
+  - make usage
   - helm upgrade --install --history-max 2 movies chart --set tag=${OKTETO_GIT_COMMIT}
