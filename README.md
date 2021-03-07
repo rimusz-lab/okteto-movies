@@ -9,4 +9,3 @@ This example shows how to leverage [Okteto](https://github.com/okteto/okteto) to
 - A [MongoDB](https://www.mongodb.com) database.
 
 This is the application used for the [How to Develop an Application based on Microservices](https://okteto.com/docs/tutorials/e2e) tutorial.
-
