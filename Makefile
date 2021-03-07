@@ -10,5 +10,5 @@ endif
 
 .PHONY: usage
 usage:
-	@echo "Test!"
+	@echo "Test: $SECRECT"
 
