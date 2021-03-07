@@ -23,6 +23,6 @@ jobs:
     - name: "Trigger the pipeline"
       uses: okteto/pipeline@master
       with:
-        name: ${{ github.event.number }}
+        name: okteto-movies
         timeout: 8m
  
