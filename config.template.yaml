@@ -1,0 +1,3 @@
+# these come from an okteto secret
+name:   $INJECT_SECRET
+name1:  $SECRECT
