@@ -2,5 +2,6 @@ icon: https://apps.okteto.com/movies/icon.png
 deploy:
   - okteto build -t okteto.dev/api:${OKTETO_GIT_COMMIT} api
   - okteto build -t okteto.dev/frontend:${OKTETO_GIT_COMMIT} frontend
+  - echo $INJECT_SECRET
   - helm upgrade --install --history-max 2 movies chart --set tag=${OKTETO_GIT_COMMIT}
 
