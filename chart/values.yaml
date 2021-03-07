@@ -3,10 +3,12 @@ tag: dev
 api:
   replicaCount: 1
   image: okteto.dev/api
+  tag: latest
 
 frontend:
   replicaCount: 1
   image: okteto.dev/frontend
+  tag: latest
 
 mongodb:
   password: "Password!1@2"
