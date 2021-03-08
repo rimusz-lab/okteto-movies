@@ -1,7 +1,11 @@
 name: Stage Release
 on:
     push:
-        branches: [ master ]
+      branches: [ master ]
+      paths:
+      - 'api/**'
+      - 'chart/**'
+      - 'frontend/**'
 
 jobs:
   devflow:
